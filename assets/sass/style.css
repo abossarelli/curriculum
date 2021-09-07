@@ -1,0 +1,334 @@
+.box, .boxCard {
+  background-color: white;
+  width: 100%;
+  padding: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: black;
+}
+
+/* boton */
+.boton, .boton__index, .formulario__boton {
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  color: black;
+  background-color: lightblue;
+}
+
+/*boton index*/
+.boton__index--estudios {
+  background-color: pink;
+  border: pink;
+}
+
+.boton__index--capacidades {
+  background-color: #91fdc7;
+  border: #91fdc7;
+}
+
+.boton__index--recomendaciones {
+  background-color: #b49fdd;
+  border: #b49fdd;
+}
+
+.boton__index--contacto {
+  background-color: #f8f89b;
+  border: #f8f89b;
+}
+
+.boton__index:hover {
+  text-transform: uppercase;
+  padding: 20px;
+  width: 300px;
+  height: 70px;
+}
+
+/*boton contacto*/
+.botonContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formulario__boton {
+  margin: 5px;
+}
+
+.formulario__boton--enviar {
+  background-color: #91fdc7;
+  border: #91fdc7;
+}
+
+.formulario__boton--limpiar {
+  background-color: pink;
+  border: pink;
+}
+
+.formulario__boton:hover {
+  width: 250px;
+  height: 60px;
+}
+
+.barraNav__index {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: fantasy;
+  text-transform: uppercase;
+}
+
+.barraNav__otros {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: cursie;
+  text-transform: lowercase;
+}
+
+.barraNav__otros--color {
+  color: black !important;
+}
+
+.box, .boxCard {
+  background-color: white;
+  width: 100%;
+  padding: 30px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: black;
+}
+
+/* boton */
+.boton, .boton__index, .formulario__boton {
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  color: black;
+  background-color: lightblue;
+}
+
+/*boton index*/
+.boton__index--estudios {
+  background-color: pink;
+  border: pink;
+}
+
+.boton__index--capacidades {
+  background-color: #91fdc7;
+  border: #91fdc7;
+}
+
+.boton__index--recomendaciones {
+  background-color: #b49fdd;
+  border: #b49fdd;
+}
+
+.boton__index--contacto {
+  background-color: #f8f89b;
+  border: #f8f89b;
+}
+
+.boton__index:hover {
+  text-transform: uppercase;
+  padding: 20px;
+  width: 300px;
+  height: 70px;
+}
+
+/*boton contacto*/
+.botonContacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formulario__boton {
+  margin: 5px;
+}
+
+.formulario__boton--enviar {
+  background-color: #91fdc7;
+  border: #91fdc7;
+}
+
+.formulario__boton--limpiar {
+  background-color: pink;
+  border: pink;
+}
+
+.formulario__boton:hover {
+  width: 250px;
+  height: 60px;
+}
+
+/*scss general*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*scss index*/
+.cardIndex__titulo {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.cardIndex__texto {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.cardIndex__texto--font {
+  font-family: cursie;
+}
+
+/*scss estudios, capacidades*/
+.tituloPrincipal {
+  background-color: whitesmoke;
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: fantasy;
+}
+
+.tituloPrincipal--estudios {
+  color: pink;
+  background-color: #b49fdd;
+}
+
+.tituloPrincipal--capacidades {
+  color: #91fdc7;
+  background-color: pink;
+}
+
+.tituloPrincipal--recomendaciones {
+  color: #b49fdd;
+  background-color: #91fdc7;
+}
+
+.tituloPrincipal--contacto {
+  color: #f8f89b;
+  background-color: pink;
+}
+
+.carta {
+  height: 350px;
+}
+
+.carta__titulo {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.carta__texto--font {
+  font-size: 20px;
+  font-family: cursie;
+}
+
+.carta--estudios {
+  color: pink;
+  background-color: #b49fdd;
+}
+
+.carta--capacidades {
+  color: #91fdc7;
+  background-color: pink;
+}
+
+.carta--recomendaciones {
+  color: #b49fdd;
+  background-color: #91fdc7;
+}
+
+.carta--contacto {
+  color: #f8f89b;
+  background-color: pink;
+}
+
+.boxCard:hover {
+  height: 400px;
+  background-color: white;
+  color: black;
+}
+
+/*scss contacto*/
+.cardContacto__texto {
+  text-align: left;
+  font-size: 20px;
+  font-family: cursie;
+}
+
+.formulario__titulo {
+  font-size: 30px;
+}
+
+.formulario__texto {
+  font-size: 20px;
+}
+
+.formulario__texto--color {
+  background-color: lightblue;
+}
+
+#formularioInput label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.controles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  width: 100%;
+  background-color: #f8f89b;
+  padding: 10px;
+  border: 3px solid pink;
+}
+/*# sourceMappingURL=style.css.map */

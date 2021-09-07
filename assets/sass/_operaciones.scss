@@ -1,0 +1,99 @@
+@import "colores";
+@import "fuentes";
+
+@mixin secciones {
+    &--estudios {
+        color:$rosa;
+        background-color: $violeta;
+    }
+    &--capacidades {
+        color: $verde; 
+        background-color: $rosa;
+    }
+    &--recomendaciones {
+        color:$violeta;
+        background-color: $verde;
+    }
+    &--contacto {
+        color:$amarillo;
+        background-color: $rosa;
+    }
+}
+.box {
+    background-color:white;
+    width: 100%;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: black;
+    
+}
+.boxCard {
+    @extend .box;
+}
+/* boton */ 
+.boton {
+    padding:10px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid $negro;
+    color: $negro;
+    background-color: $celeste;
+}
+/*boton index*/ 
+.boton__index {
+    @extend .boton;
+    &--estudios {
+        background-color: $rosa ;
+        border:$rosa;
+    }
+    &--capacidades {
+        background-color: $verde;
+        border:$verde;
+    }
+    &--recomendaciones {
+        background-color: $violeta;
+        border: $violeta;
+    }
+    &--contacto {
+        background-color: $amarillo;
+        border:$amarillo;
+    }
+}
+.boton__index:hover {
+    text-transform: uppercase;
+    padding:20px;
+    width: 300px;
+    height: 70px;
+}
+
+/*boton contacto*/ 
+@mixin flexCenter {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.botonContacto {
+    @include flexCenter;
+}
+.formulario__boton {
+    @extend .boton;
+    margin:5px;
+    &--enviar {
+        background-color: $verde;
+        border:$verde;
+    }
+    &--limpiar {
+        background-color: $rosa;
+        border:$rosa;
+    }
+}
+.formulario__boton:hover {
+    width: 250px;
+    height: 60px;
+}
+
+
+
+

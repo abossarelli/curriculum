@@ -1,0 +1,98 @@
+@import "colores";
+@import "fuentes";
+@import "operaciones";
+$centrar:center;
+
+/*scss general*/
+
+footer {
+    @include flexCenter;
+}
+
+/*scss index*/
+.cardIndex {
+    &__titulo {
+    padding:20px;
+    text-align:$centrar;
+    font-size:40px;
+    font-family: $titulos;
+    }
+    &__texto {
+        text-align: $centrar;
+        font-size: 30px;
+        margin-bottom:30px;
+        &--font {
+        font-family:$parrafos;
+        }
+    }
+}
+
+
+/*scss estudios, capacidades*/
+.tituloPrincipal {
+    background-color: whitesmoke;
+    padding:50px;
+    text-align:$centrar;
+    font: {
+        size:40px;
+        weight:bold;
+        family: $titulos;
+    }
+    @include secciones;
+}
+.carta {
+    height: 350px;
+    &__titulo {
+        padding:20px;
+        text-align:$centrar;
+        font: {
+            size:30px;
+            weight: bold;
+        }
+    }
+    &__texto {
+        &--font {
+            font: {
+                size:20px;
+                family:$parrafos;
+            }
+        }
+    }
+    @include secciones;
+}
+.boxCard:hover{
+    height: 400px;
+    background-color: white;
+    color:black;
+}
+
+/*scss contacto*/
+.cardContacto {
+    &__texto {
+        text-align:left;
+        font: {
+                size:20px;      
+                family:$parrafos;
+        }
+    }
+}
+.formulario {
+    &__titulo {font-size:30px;}
+    &__texto {
+        font-size:20px;
+        &--color {
+            background-color:$celeste;
+        }
+    }
+}
+#formularioInput label {
+    @include flexCenter
+}
+.controles {
+    @include flexCenter;
+    margin:10px;
+    width: 100%;
+    background-color: $amarillo;
+    padding: 10px;
+    border: 3px solid $rosa;
+}

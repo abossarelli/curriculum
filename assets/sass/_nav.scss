@@ -1,0 +1,25 @@
+@import "colores";
+@import "fuentes";
+.barraNav {
+
+    &__index {
+        font: {
+            size:20px;
+            weight:bold;
+            family:$titulos;
+        }
+        text-transform: uppercase;
+    }
+    &__otros {
+        font: {
+            size:15px;
+            weight:bold;
+            family:$parrafos;
+        }
+        text-transform: lowercase;
+    
+    &--color {
+        color: $negro!important;
+    }}
+}
+
